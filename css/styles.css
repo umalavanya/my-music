@@ -5,35 +5,33 @@ body {
   padding: 0;
 }
 
-.header{
-    background-color: rgba(0, 0, 0, 0.906);
+.headline-content{  
     height: 100px ;
     display: flex ;
-    
+    background-color: black;
+    color: white ; 
+}
+.logo{
+  justify-self: left;
+  height:100% ;
+  width: auto ;
 }
 
-.header>.heading{
-  text-align: center;
-  justify-self: center;
+.headline{
+  padding-left: 100px ;
+  justify-content: center;
+  align-items: center;
+  margin: 0 ;
+  
 }
 
-.logo {
-    height:100% ;
-    width:"auto" ;
-    float: left  ;
-}
 
 .hands{
     height: 30px ;
     width: 30px ;
 }
 
-.header>.heading{
-    color: white ;
-    justify-self : center ;
-    align-self : center;
-    padding: 10% ;
-}
+
 
 .container-head{
   display: flex ;
