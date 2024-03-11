@@ -35,9 +35,21 @@ body {
 
 .container-head{
   display: flex ;
-  justify-content: center;
+  justify-content:space-around;
+  flex-direction: row ;
+  
+}
+
+.prev, .next{
+  background-color: #a02121;
+  font-weight: #34269f;
   align-items: center;
-  align-content: center;
+  border: 0px ;
+}
+
+.middle-heading{
+
+  font-weight: 500;
 
 }
 
@@ -106,7 +118,6 @@ iframe {
     height: 600vh;
     border: none;
     display: none ;
-    margin: 1% 2% 1% 2% ;
     
 }
 
