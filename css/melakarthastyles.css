@@ -2,18 +2,21 @@ h1 {
     text-align: center;
 }
 
-table {
+#ragacompositions{
     width: 80%;
     margin: 20px auto;
-    border-collapse: collapse;
+    border: 1px solid black ;
 }
 
-th, td {
+#ragacompositions th, #ragacompositions td {
     padding: 8px;
     border-bottom: 1px solid #ddd;
     text-align: left;
+    border: 1px solid black ;
 }
 
-th {
+#ragacompositions th {
     background-color: #f2f2f2;
+    border: 1px solid black ;
+    
 }
