@@ -5,11 +5,11 @@ h1 {
 #ragacompositions{
     width: 80%;
     margin: 20px auto;
-    border: 1px solid black ;
+    border: 2px solid black ;
 }
 
 #ragacompositions th, #ragacompositions td {
-    padding: 8px;
+    padding-left: 2%;
     border-bottom: 1px solid #ddd;
     text-align: left;
     border: 1px solid black ;
@@ -18,5 +18,33 @@ h1 {
 #ragacompositions th {
     background-color: #f2f2f2;
     border: 1px solid black ;
+    text-align: Center;
+    
+}
+
+
+#ragacompositions{
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid black ;
+}
+
+#lyrics_table{
+    width: 90%;
+    margin: 10px auto;
+    border: 1px solid black ;
+    justify-items: center;
+}
+
+
+#lyrics_table th, #lyrics_table td {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border: 1px solid black ;
+}
+
+#lyrics_table img{
+    height: 30px ;
     
 }
