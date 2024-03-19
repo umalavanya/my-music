@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: block ;
 }
   
 .headline-content img{
@@ -46,6 +47,7 @@ body {
 
     border: 1px solid black;
     padding: 20px;
+    text-align: center;
   
     grid-column-start: 1 ;
     grid-column-end: 3 ;
@@ -80,23 +82,28 @@ body {
 
   
 .composition-learning {
-        margin-left: 5%;
-        width: 50% ;
-        align-items: center;
-        font-weight: bold;
-        text-align: center;
-        align-self: center;
+
+    margin: 5% ; 
+    height: auto ;
+    text-align: center;
+        
 }
+
+#speed1{
+    width: 100%;
+    border-collapse: collapse; 
       
-#speed1,
+}    
+
 #speed1 th,
 #speed1 td {
         border: 1px solid #17c9433d;
-        text-align: center;
         width: auto ;
         font-weight: bolder;
+        padding: 6px ;
         
       }
+
       
 #speed1 img {
         height: 40px;
