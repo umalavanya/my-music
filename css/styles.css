@@ -5,6 +5,11 @@ body {
   padding: 0;
 }
 
+.headline-content img{
+  height: 100% ;
+}
+
+
 .headline-content{  
     height: 100px ;
     display: flex ;
@@ -53,7 +58,13 @@ body {
 }
 
 .index-container{
-    height: 900px  ;
+    height: auto  ;
+
+}
+
+.index-container img{
+  height: auto  ;
+  
 }
 
 .footer{
@@ -183,3 +194,72 @@ table{
     .drutha2_2{
       background-color: #bee1fc;
     } 
+
+    .composition-container{
+      display: grid ;
+      gap: 1fr 1fr 1fr 1fr ; 
+     
+    }
+
+    
+
+    .composition-container>.composition-intro{
+
+      grid-column-start: 1 ;
+      grid-column-end: 3 ;
+      grid-row-start: 1 ;
+      grid-row-end : 2 ;
+      background-color: red ;
+      
+      
+    }
+
+
+    .composition-container>.composition-telugu{
+
+      grid-column-start: 1 ;
+      grid-column-end: 2 ;
+      grid-row-start: 2 ;
+      grid-row-end : 3 ;
+      
+    }
+
+    .composition-container>.composition-english{
+
+      grid-column-start: 2 ;
+      grid-column-end: 3 ;
+      grid-row-start: 2 ;
+      grid-row-end : 3 ;
+      
+    }
+   
+
+    .composition-learning {
+      margin-left: 1%;
+      width: 50% ;
+      align-items: center;
+      font-weight: bold;
+      text-align: center;
+
+    }
+    
+    .composition-learning table,
+    .composition-learning th,
+    .composition-learning td {
+      border: 2px solid #a0212110;
+      
+    }
+    
+    .composition-learning img {
+      height: 40px;
+    }
+
+    .composition-learning .swara-row{
+      color:black
+    }
+
+    .composition-learning .sahithya-row{
+      color: rgb(29, 141, 130) ;
+    }
+
+    

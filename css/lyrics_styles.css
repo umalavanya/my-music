@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.headline-content img{
+    height: 100% ;
+}
+  
+  
+.headline-content{  
+    height: 100px ;
+    display: flex ;
+    background-color: black;
+    color: white ; 
+}
+
+.logo{
+    justify-self: left;
+    height:100% ;
+    width: auto ;
+}
+  
+  .headline{
+    padding-left: 100px ;
+    justify-content: center;
+    align-items: center;
+    margin: 0 ;
+    
+  }
+  
+
+.composition-container{
+    display: grid;
+    grid-template-columns: auto auto; /* 2 columns */
+    grid-template-rows: auto auto; /* 2 rows */
+    gap: 5px; /* Adjust gap size as needed */
+    margin: 5% ;
+       
+}
+
+  
+.composition-container>.composition-intro{
+
+    border: 1px solid black;
+    padding: 20px;
+  
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    grid-row-start: 1 ;
+    grid-row-end : 2 ;
+        
+    }
+  
+  
+.composition-container>.composition-telugu{
+
+    border: 1px solid black;
+    padding: 20px;
+  
+    grid-column-start: 1 ;
+    grid-column-end: 2 ;
+    grid-row-start: 2 ;
+    grid-row-end : 3 ;
+        
+}
+  
+.composition-container>.composition-english{
+
+    border: 1px solid black;
+    padding: 20px;
+    grid-column-start: 2 ;
+    grid-column-end: 3 ;
+    grid-row-start: 2 ;
+    grid-row-end : 3 ;
+        
+}
+
+  
+.composition-learning {
+        margin-left: 5%;
+        width: 50% ;
+        align-items: center;
+        font-weight: bold;
+        text-align: center;
+        align-self: center;
+}
+      
+#speed1,
+#speed1 th,
+#speed1 td {
+        border: 1px solid #17c9433d;
+        text-align: center;
+        width: auto ;
+        font-weight: bolder;
+        
+      }
+      
+#speed1 img {
+        height: 40px;
+      }
+  
+.swara-row{
+        color:black ;
+      }
+  
+.sahithya-row{
+        color: rgb(29, 141, 130) ;
+      }
+    
+.laghu1{
+          background-color: #64ed69;
+        }
+    
+.laghu2{
+          background-color: #9af29d;
+        }
+    
+.laghu3{
+          background-color: #bcf6be;
+        }
+    
+.laghu4{
+          background-color: #defbdf;
+        }
+    
+.drutha1_1{
+          background-color: #efa61ff4;
+        }
+    
+.drutha1_2{
+          background-color: #efd29cf4;
+        }
+    
+.drutha2_1{
+          background-color: #7ec4f9;
+        }
+.drutha2_2{
+          background-color: #bee1fc;
+        }
+  
+      
+.footer{
+            height: 50px ;
+            background: linear-gradient( rgb(130, 3, 3),rgb(0, 0, 0));
+            color: #E8D8C4
+        }
+        
+  
