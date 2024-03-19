@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    display: block ;
+
 }
   
 .headline-content img{
@@ -39,6 +39,7 @@ body {
     grid-template-rows: auto auto; /* 2 rows */
     gap: 5px; /* Adjust gap size as needed */
     margin: 5% ;
+    
        
 }
 
@@ -46,37 +47,87 @@ body {
 .composition-container>.composition-intro{
 
     border: 1px solid black;
-    padding: 20px;
-    text-align: center;
-  
     grid-column-start: 1 ;
     grid-column-end: 3 ;
     grid-row-start: 1 ;
     grid-row-end : 2 ;
+    border-radius: 10px ;
+
         
     }
-  
+
+
+
+.composition-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+      
+.composition-headline {
+        margin: 20px ; /* Optional: Add margin below the headline */
+}
+      
+.composition-head-table {
+        max-width: 600px; /* Optional: Set max-width for the table container */
+    }
+      
+.composition-head-table table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10% ;
+      }
+      
+.composition-head-table th, 
+.composition-head-table td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd; /* Optional: Add border-bottom for each row */
+      }
+      
+.composition-head-table th {
+        width: 120px; /* Optional: Set width for table headers */
+      }
+      
+
+.compostion-headline{
+    justify-content : center;
+    align-items: center;
+
+}
+
   
 .composition-container>.composition-telugu{
 
     border: 1px solid black;
-    padding: 20px;
-  
+    padding: 25px;
+    text-align: center ;
     grid-column-start: 1 ;
     grid-column-end: 2 ;
     grid-row-start: 2 ;
     grid-row-end : 3 ;
-        
+    border-radius: 10px ;
+    
+}
+
+
+.heading-pallavi, .heading-charanam{
+    text-align: center;
+    margin: 10px ;
+    font-size: larger;
+    font-weight: bold;
 }
   
 .composition-container>.composition-english{
 
     border: 1px solid black;
     padding: 20px;
+    text-align: center ;
     grid-column-start: 2 ;
     grid-column-end: 3 ;
     grid-row-start: 2 ;
     grid-row-end : 3 ;
+    border-radius: 10px ;
         
 }
 
@@ -92,6 +143,7 @@ body {
 #speed1{
     width: 100%;
     border-collapse: collapse; 
+    margin-bottom: 20% ;
       
 }    
 
@@ -102,7 +154,10 @@ body {
         font-weight: bolder;
         padding: 6px ;
         
+        
       }
+
+
 
       
 #speed1 img {
@@ -111,10 +166,12 @@ body {
   
 .swara-row{
         color:black ;
+        
       }
   
 .sahithya-row{
         color: rgb(29, 141, 130) ;
+        
       }
     
 .laghu1{
@@ -122,30 +179,30 @@ body {
         }
     
 .laghu2{
-          background-color: #9af29d;
+          background-color: #64ed6990;
         }
     
 .laghu3{
-          background-color: #bcf6be;
+          background-color: #64ed6950;
         }
     
 .laghu4{
-          background-color: #defbdf;
+          background-color: #64ed6920;
         }
     
 .drutha1_1{
-          background-color: #efa61ff4;
+          background-color: #FFCF96;
         }
     
 .drutha1_2{
-          background-color: #efd29cf4;
+          background-color: #FFCF9680;
         }
     
 .drutha2_1{
-          background-color: #7ec4f9;
+          background-color: #CDF5FD;
         }
 .drutha2_2{
-          background-color: #bee1fc;
+          background-color: #CDF5FD70;
         }
   
       
