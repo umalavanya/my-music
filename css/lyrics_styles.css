@@ -132,7 +132,7 @@ body {
 }
 
 .compostion-text{
-    font-size: 1.5rem ;
+    font-size: 1.2rem ;
     font-family:nVerdana, Geneva, Tahoma, sans-serif
 }
 
@@ -220,12 +220,26 @@ body {
 }
 
 
-.container-footer a{
+.container-footer .back>a,
+.container-footer .home>a
+{
     height: 10px ;
-    background-color: #008CBA;
     cursor: pointer;
+    text-decoration: none; 
+    color: green ;
 }
 
+
+.container-footer .back>a:hover{
+
+    color:chocolate ;
+}
+
+
+.container-footer .home>a:hover{
+
+    color: blue ;
+}
 
 .footer{
             height: 4rem ;
@@ -235,20 +249,5 @@ body {
 }
 
 
-
-/* Styling back button */
-
-.back:hover {
-    background-color: #45a049; /* Darker green */
-}
-
-/* Styling home button */
-.home-button {
-    background-color: #008CBA; /* Blue */
-}
-
-.home-button:hover {
-    background-color: #0073a8; /* Darker blue */
-}
         
   
