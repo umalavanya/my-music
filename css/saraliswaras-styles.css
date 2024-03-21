@@ -152,6 +152,12 @@
             .index-header{
                 height: 3rem  ;
             }  
+
+            iframe{
+                height: 60vh ;
+            }
+
+
             
 
         }
