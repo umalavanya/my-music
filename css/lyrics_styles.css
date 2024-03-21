@@ -131,6 +131,11 @@ body {
         
 }
 
+.compostion-text{
+    font-size: 1.5rem ;
+    font-family:nVerdana, Geneva, Tahoma, sans-serif
+}
+
   
 .composition-learning {
 
@@ -208,13 +213,42 @@ body {
 .container-footer{
     display: flex ;
     justify-content: space-evenly;
+    font-weight: bolder;
+    font-size: 1.8rem ;
+    padding: 10px 20px;
+    height: 100px ;
 }
-      
+
+
+.container-footer a{
+    height: 10px ;
+    background-color: #008CBA;
+    cursor: pointer;
+}
+
+
 .footer{
             height: 4rem ;
             background: linear-gradient( rgb(130, 3, 3),rgb(0, 0, 0));
             color: #E8D8C4 ;
+            
+}
 
-        }
+
+
+/* Styling back button */
+
+.back:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Styling home button */
+.home-button {
+    background-color: #008CBA; /* Blue */
+}
+
+.home-button:hover {
+    background-color: #0073a8; /* Darker blue */
+}
         
   
