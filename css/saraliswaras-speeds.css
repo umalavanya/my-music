@@ -56,12 +56,13 @@
     }
 
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 489px) {
 
         .table-responsive th, .table-responsive td {
             width: auto; /* Equal width for each column */
             padding: 1.5px;
             font-size: 60%;
+            height: auto ;
 
           }
 
