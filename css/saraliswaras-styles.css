@@ -139,6 +139,13 @@
 
         }
 
+        .saraliswaras-nav a:hover{
+
+            font-size: x-large ;
+            color:rgb(16, 72, 128)
+
+        }
+
 
         .footer-nav{
             background-color: rgb(230, 234, 237) ;
@@ -180,6 +187,8 @@
             iframe{
                 height: 60vh ;
             }
+
+            
 
 
             
