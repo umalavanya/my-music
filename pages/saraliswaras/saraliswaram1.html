@@ -4,140 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uma Carnatic Music Learning</title>
-    <style>
-
-        body{
-            background-color:#dddddd;
-        }
-        .index-page{
-            font-family: Arial, Helvetica, sans-serif; 
-            height: 100% ;
-        }        
-        .index-header{
-            display: flex ;
-            width: 100% ;
-            height: 100px ; ;
-        }
-        .header-logo{
-            flex: 1 ;
-        }
-        .header-logo img{
-
-            height:  100% ;
-        }
-        .header-headline{
-            background-color: black ;
-            color: white ;
-            flex: 9 ; 
-            display: flex ;
-            justify-content: center;
-            align-items: center;
-        }
-        .header-headline h1{
-            text-align: center ;
-            
-        }
-        .index-body{
-            height: 800px ;
-            background-color: whitesmoke ;
-            margin: 2%  ;
-            border-radius: 1% ;
-            padding: 5% ;
-        }
-
-
-        .home-list {
-            list-style-type: none;
-        }
-        .home-list li {
-            margin-bottom: 5%; 
-        }
-
-
-        .home-list li a {
-            text-decoration: none;
-            color:darkgreen;
-            font-weight: bolder;    
-        }
-
-  
-        .home-list li a:hover {
-            color: rgb(121, 19, 19); /* Change link color on hover */
-        }
-
-        .index-footer{
-            height: 100px ;
-            width: 100% ;
-            background: linear-gradient(rgb(121, 19, 19),black );
-            color: white ;
-            font-size: larger;
-            padding: 1% ;
-        }
-
-
-        .saraliswaras-container {
-            max-width: 960px;
-            margin: 0 auto;
-        }     
-
-        .speed-row {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .speed-col {
-            flex: 1;
-            text-align: center;
-        }
-
-        .speed-col a {
-            text-decoration: none;
-            color: #34269f;
-            padding: 2px;
-            display: block;
-        }
-
-        .speed-col a:hover{
-            color: rgb(154, 21, 21) ;
-            font-size: 120%; 
-        }
-
-        .speed-col a::after {
-            
-            font-weight: bold; 
-            color: red;
-        }
-
-        .display-frame {
-            display: flex;
-            overflow:hidden ;
-        }
-
-        iframe {
-            width: 100%;
-            height: 600vh;
-            border: none;
-            display: none ;
-            
-        }
-
-        iframe.active {
-            display: block;
-        }
-
-
-        @media screen and (max-width: 600px) {
-
-            .header-headline h1{
-
-                font-size: larger;
-            }
-
-            .index-header{
-                height: 3rem  ;
-            }            
-        }
-    </style>
+    <link rel="stylesheet" href="../../css/saraliswaras-styles.css">
 </head>
 <body>
 
@@ -149,15 +16,15 @@
 
         <div class="index-body">
             <div class="saraliswaras-header">
-                <div>మాయామాళవగౌళ రాగము</div>
-                <div>ఆది తాళము</div>
-                <div>ఆరోహణ: స రి1 గ3 మ1 ప ద1 ని3 స·</div> 
-                <div>అవరోహణ: స· ని3 ద1 ప మ1 గ3 రి1 స</div> 
+                <div class="sarali-head">మాయామాళవగౌళ రాగము</div>
+                <div class="sarali-head">ఆది తాళము</div>
+                <div class="sarali-head">ఆరోహణ: స రి<sub>1</sub> గ<sub>3</sub> మ<sub>1</sub> ప ద<sub>1</sub> ని<sub>3</sub> స·</div> 
+                <div class="sarali-head">అవరోహణ: స· ని<sub>3</sub> ద<sub>1</sub> ప మ<sub>1</sub> గ<sub>3</sub> రి<sub>1</sub> స</div> 
             </div>
             <div class="saraliswaras-nav">
-                <div><a href="../carnaticmusictheory.html">Previous</a></div>
-                <div>సరళి స్వరాలు - 1</div>
-                <div><a href="./saraliswaram2.html">Next</a></div>
+                <div class="sarali-previous"><a href="../carnaticmusictheory.html">Previous</a></div>
+                <div class="sarali-name">సరళి స్వరాలు - 1</div>
+                <div class="sarali-next"><a href="./saraliswaram2.html">Next</a></div>
             </div>
             <div class="saraliswaras-container">
                 <div class="speed-row">
@@ -191,6 +58,8 @@
     <script>
 
     function showFrame(frameId) {
+
+           
             const iframes = document.querySelectorAll('.display-frame iframe');
             iframes.forEach(iframe => {
                 if (iframe.id === frameId) {
