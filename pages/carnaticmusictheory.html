@@ -29,13 +29,16 @@
             background-color: black ;
             color: white ;
             flex: 9 ; 
+            display: flex ;
+            justify-content: center;
+            align-items: center;
         }
         .header-headline h1{
-            margin : 3% 0% 0% 10%  ;
+            text-align: center ;
             
         }
         .index-body{
-            height: auto ;
+            height: 800px ;
             background-color: whitesmoke ;
             margin: 2%  ;
             border-radius: 1% ;
@@ -75,18 +78,24 @@
 
             .header-headline h1{
 
-                margin : 4% 0% 0% 10%  ;
                 font-size: larger;
             }
 
             .index-header{
-
                 height: 3rem  ;
-            }            
+            }  
+
+            .index-body{
+                font-size: 80% ;
+            }
+
+            .index-body ul{
+                margin-left: 1% ;
+            }
+            
+
         }
     </style>
-
-
 
 </head>
 <body>
@@ -129,12 +138,10 @@
             </nav>
             
         </div>
-        <div class=""> 
-            <div><a href="../index.html">Home</a></div>
-
-        </div>
-
         
+        <div class="footer-nav">
+            <div class="footer-home"><a href="../index.html">Home</a></div>
+        </div>
 
         <div class="index-footer"><p>&copy; Umalavanya</p></div>
 
