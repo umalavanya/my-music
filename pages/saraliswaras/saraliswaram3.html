@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uma Carnatic Music Learning</title>
+    <link rel="stylesheet" href="../../css/saraliswaras-styles.css">
+</head>
+<body>
+
+    <div class="index-page">
+        <div class="index-header">
+            <div class="header-logo"><img src="../../assets/logo.png" alt="Umalavanya Music Logo"></div>
+            <div class="header-headline"><h1>సరళి స్వరాలు</h1></div>
+        </div>
+
+        <div class="index-body">
+            <div class="saraliswaras-header">
+                <div class="sarali-head">మాయామాళవగౌళ రాగము</div>
+                <div class="sarali-head">ఆది తాళము</div>
+                <div class="sarali-head">ఆరోహణ: స రి<sub>1</sub> గ<sub>3</sub> మ<sub>1</sub> ప ద<sub>1</sub> ని<sub>3</sub> స·</div> 
+                <div class="sarali-head">అవరోహణ: స· ని<sub>3</sub> ద<sub>1</sub> ప మ<sub>1</sub> గ<sub>3</sub> రి<sub>1</sub> స</div> 
+            </div>
+            <div class="saraliswaras-nav">
+                <div class="sarali-previous"><a href="./saraliswaram2.html">Previous</a></div>
+                <div class="sarali-name">సరళి స్వరాలు - 3</div>
+                <div class="sarali-next"><a href="./saraliswaram4.html">Next</a></div>
+            </div>
+            <div class="saraliswaras-container">
+                <div class="speed-row">
+                    <div class="speed-col">
+                        <a href="javascript:void(0);" onclick="showFrame('contentFrame1')">Speed-1</a>
+                    </div>
+                    <div class="speed-col">
+                        <a href="javascript:void(0);" onclick="showFrame('contentFrame2')">Speed-2</a>
+                    </div>
+                    <div class="speed-col">
+                        <a href="javascript:void(0);" onclick="showFrame('contentFrame3')">Speed-3</a>
+                    </div>
+                </div>
+            </div>
+        
+    
+           <div class="display-frame">
+                <iframe name="contentFrame1" id="contentFrame1" src="./saraliswaram3speed1.html" frameborder="0" class="active"></iframe>
+                <iframe name="contentFrame2" id="contentFrame2" src="./saraliswaram3speed2.html" frameborder="0"></iframe>
+                <iframe name="contentFrame3" id="contentFrame3" src="./saraliswaram3speed3.html" frameborder="0"></iframe>
+            </div>
+        </div> 
+
+        <div class="footer-nav">
+            <div class="footer-music-theory"><a href="../carnaticmusictheory.html">Carnatic Music Theory</a></div>
+            <div class="footer-home"><a href="../index.html">Home</a></div>
+        </div>
+
+        <div class="index-footer"><p>&copy; Umalavanya</p></div>
+
+    </div>
+
+    </div>
+
+
+    <script>
+
+    function showFrame(frameId) {
+
+           
+            const iframes = document.querySelectorAll('.display-frame iframe');
+            iframes.forEach(iframe => {
+                if (iframe.id === frameId) {
+                    iframe.classList.add('active');
+                } else {
+                    iframe.classList.remove('active');
+                }
+            });
+        }
+    </script>
+
+
+    </body>
+</html>
