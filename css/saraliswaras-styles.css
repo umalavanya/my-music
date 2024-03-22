@@ -7,7 +7,8 @@
         .index-header{
             display: flex ;
             width: 100% ;
-            height: 100px ; ;
+            height: 100px ; 
+            margin: 0 ;
         }
         .header-logo{
             flex: 1 ;
@@ -32,37 +33,52 @@
             height: auto ;
             background-color: whitesmoke ;
             border-radius: 1% ;
-            padding: 5% ;
+            padding: 2% ;
+            margin: 0 ;
         }
 
 
-        .home-list {
-            list-style-type: none;
-        }
-        .home-list li {
-            margin-bottom: 5%; 
-        }
 
 
-        .home-list li a {
-            text-decoration: none;
-            color:darkgreen;
-            font-weight: bolder;    
+        .saraliswaras-header{ 
+
+            padding-bottom: 10px ;
+            text-align: center ;
+            font-size: 80% ;  
+            font-weight: bold ;          
+        }
+
+        .sarali-head{
+            margin-top: 1%  ;
+        }
+
+        .saraliswaras-nav{
+            border-top: 2px solid black ;
+            border-bottom: 1px solid black ;
+            padding: 0.5% ;
+            display: flex ;
+            justify-content: space-around;
+            margin-bottom: 2% ;
+            font-weight: bold ;
+
+        }
+
+        .saraliswaras-nav a{
+            text-decoration: none ;
+            font-size: large;
+            color:dodgerblue
+
+        }
+
+        .saraliswaras-nav a:hover{
+
+            font-size: x-large ;
+            color:rgb(16, 72, 128)
+
         }
 
   
-        .home-list li a:hover {
-            color: rgb(121, 19, 19); /* Change link color on hover */
-        }
-
-        .index-footer{
-            height: 100px ;
-            width: 100% ;
-            background: linear-gradient(rgb(121, 19, 19),black );
-            color: white ;
-            font-size: larger;
-            padding: 1% ;
-        }
+       
 
 
         .saraliswaras-container {
@@ -100,7 +116,7 @@
 
         iframe {
             width: 100%;
-            height: 100vh;
+            height: 200vh;
             border: none;
             display: none ;
             
@@ -110,41 +126,7 @@
             display: block;
         }
 
-        .saraliswaras-header{ 
-
-            padding: 20px ;
-            text-align: center ;
-            font-size: larger;            
-        }
-
-        .sarali-head{
-            margin-top: 3% ;
-        }
-
-        .saraliswaras-nav{
-            border-top: 2px solid black ;
-            border-bottom: 1px solid black ;
-            padding: 5% ;
-            display: flex ;
-            justify-content: space-between;
-            margin-bottom: 10% ;
-            font-weight: bold ;
-
-        }
-
-        .saraliswaras-nav a{
-            text-decoration: none ;
-            font-size: larger;
-            color:dodgerblue
-
-        }
-
-        .saraliswaras-nav a:hover{
-
-            font-size: x-large ;
-            color:rgb(16, 72, 128)
-
-        }
+        
 
 
         .footer-nav{
@@ -167,6 +149,16 @@
         .footer-music-theory a:hover{
             color:fuchsia ;
             font-size: 120% ;
+        }
+
+
+        .index-footer{
+            height: 100px ;
+            width: 100% ;
+            background: linear-gradient(rgb(121, 19, 19),black );
+            color: white ;
+            font-size: larger;
+            padding: 1% ;
         }
         
 
