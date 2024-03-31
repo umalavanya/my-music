@@ -99,11 +99,17 @@
             padding: 1.5px;
             font-size: 60%;
             height: auto ;
-
+          
           }
 
           .hands{
             height: 20px ;
+          }
+
+          th, td {
+
+            padding: 2px;
+
           }
 
 
