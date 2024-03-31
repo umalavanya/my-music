@@ -92,7 +92,7 @@
 
 
 
-    @media screen and (max-width: 489px) {
+    @media screen and (max-width: 600px) {
 
         .table-responsive th, .table-responsive td {
             width: auto; /* Equal width for each column */
