@@ -124,7 +124,7 @@ body{
   
 .composition-learning {
 
-    margin: 5% ; 
+    margin: 0% ; 
     height: auto ;
     text-align: center;
         
@@ -142,7 +142,7 @@ body{
         border: 1px solid #17c9433d;
         width: auto ;
         font-weight: bolder;
-        padding: 6px ;
+        padding: 2px ;
     }
       
 .speed1 img {
