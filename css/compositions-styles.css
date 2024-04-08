@@ -112,6 +112,25 @@ body{
     
     }
 
+    ol{
+        margin-left: -5% ;
+    }
+
+    li{
+        list-style-type: none;
+        margin: 2% ;
+    }
+
+    li a{
+        text-decoration:none;
+        color:rgb(6, 106, 78) ;
+        font-weight: bold ;
+    }
+
+    li a:hoverv{
+        color:crimson;
+    }
+
 @media screen and (max-width: 600px) {
 
     .header-headline h1{
@@ -128,7 +147,7 @@ body{
     }
 
     .index-body ul{
-        margin-left: 1% ;
+        margin-left: 0% ;
     }
     
     
