@@ -62,7 +62,7 @@ body{
     background-color: rgb(230, 234, 237) ;
     height: 3rem ;
     display: flex ;
-    justify-content: center; 
+    justify-content: space-around; 
     align-items: center ;
 
 }
