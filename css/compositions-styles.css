@@ -1,0 +1,136 @@
+body{
+    background-color:#dddddd;
+}
+.index-page{
+    font-family: Arial, Helvetica, sans-serif; 
+    height: auto ;
+}        
+.index-header{
+    display: flex ;
+    width: 100% ;
+    height: 100px ; ;
+}
+.header-logo{
+    flex: 1 ;
+}
+.header-logo img{
+
+    height:  100% ;
+}
+.header-headline{
+    background-color: black ;
+    color: white ;
+    flex: 9 ; 
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.header-headline h1{
+    text-align: center ;
+    
+}
+.index-body{
+    height: auto ;
+    background-color: whitesmoke ;
+    margin: 2%  ;
+    border-radius: 1% ;
+    padding: 5% ;
+}
+
+
+.home-list {
+    list-style-type: none;
+}
+.home-list li {
+    margin-bottom: 4%; 
+}
+
+
+.home-list li a {
+    text-decoration: none;
+    color:darkgreen;
+    font-weight: bolder;    
+}
+
+
+.home-list li a:hover {
+    color: rgb(121, 19, 19); /* Change link color on hover */
+}
+
+
+.footer-nav{
+    background-color: rgb(230, 234, 237) ;
+    height: 3rem ;
+    display: flex ;
+    justify-content: center; 
+    align-items: center ;
+
+}
+
+.footer-home a{
+    text-decoration: none;
+    color:darkgreen;
+    font-weight: bolder; 
+}
+
+.footer-home a:hover{
+    color:fuchsia ;
+}
+
+
+
+.index-footer{
+    height: 100px ;
+    width: 100% ;
+    background: linear-gradient(rgb(121, 19, 19),black );
+    color: white ;
+    font-size: larger;
+    padding: 1% ;
+
+
+}
+
+
+#ragacompositions{
+    width: 100%;
+    margin: 1% auto;
+    border: 2px solid black ;
+    border-collapse:collapse;
+    }
+
+    #ragacompositions th, #ragacompositions td {
+    padding-left: 2%;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    border: 1px solid black ;
+    }
+
+    #ragacompositions th {
+    background-color: #f2f2f2;
+    border: 2px solid black ;
+    text-align: Center;
+    
+    }
+
+@media screen and (max-width: 600px) {
+
+    .header-headline h1{
+
+        font-size: larger;
+    }
+
+    .index-header{
+        height: 3rem  ;
+    }  
+
+    .index-body{
+        font-size: 80% ;
+    }
+
+    .index-body ul{
+        margin-left: 1% ;
+    }
+    
+    
+
+}
