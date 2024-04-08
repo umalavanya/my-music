@@ -103,12 +103,14 @@ body{
     border-bottom: 1px solid #ddd;
     text-align: left;
     border: 1px solid black ;
+    
     }
 
     #ragacompositions th {
     background-color: #f2f2f2;
     border: 2px solid black ;
-    text-align: Center;
+    text-align: center;
+    padding: 2% ;
     
     }
 
