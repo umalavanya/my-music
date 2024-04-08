@@ -38,25 +38,153 @@ body{
 }
 
 
-.home-list {
-    list-style-type: none;
-}
-.home-list li {
-    margin-bottom: 4%; 
-}
-
-
-.home-list li a {
-    text-decoration: none;
-    color:darkgreen;
-    font-weight: bolder;    
+.composition-container{
+    display: block;
+    gap: 5px; /* Adjust gap size as needed */
+    margin: 1% ;
 }
 
 
-.home-list li a:hover {
-    color: rgb(121, 19, 19); /* Change link color on hover */
+.composition-container>.composition-intro{
+
+    border: 1px solid black;
+    border-radius: 10px ;
+   
+    }
+
+
+.composition-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+      
+.composition-headline {
+        margin: 20px ; /* Optional: Add margin below the headline */
+}
+      
+.composition-head-table {
+        max-width: 800% ; /* Optional: Set max-width for the table container */
+    }
+      
+.composition-head-table table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 10% ;
+      }
+      
+.composition-head-table th, 
+.composition-head-table td {
+        padding: 2%;
+        text-align: left;
+        border-bottom: 2px solid #ddd; /* Optional: Add border-bottom for each row */
+      }
+      
+.composition-head-table th {
+        width: 12% ; /* Optional: Set width for table headers */
+      }
+      
+
+.compostion-headline{
+    justify-content : center;
+    align-items: center;
+
 }
 
+  
+.composition-container>.composition-telugu{
+
+    border: 1px solid black;
+    padding: 25px;
+    text-align: center ;
+    border-radius: 10px ;
+    margin-top: 20px ;
+    
+}
+
+
+.heading-pallavi, .heading-charanam{
+    text-align: center;
+    margin: 10px ;
+    font-size: larger;
+    font-weight: bold;
+}
+  
+
+
+.compostion-text{
+    font-size: 1.2rem ;
+    font-family:nVerdana, Geneva, Tahoma, sans-serif
+}
+
+  
+.composition-learning {
+
+    margin: 5% ; 
+    height: auto ;
+    text-align: center;
+        
+}
+
+#speed1{
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20% ;
+      
+}    
+
+#speed1 th,
+#speed1 td {
+        border: 1px solid #17c9433d;
+        width: auto ;
+        font-weight: bolder;
+        padding: 6px ;
+    }
+      
+.speed1 img {
+        height: 40px;
+      }
+  
+.swara-row{
+        color:black ;
+        
+      }
+  
+.sahithya-row{
+        color: rgb(29, 141, 130) ;
+        
+      }
+    
+.laghu1{
+          background-color: #64ed69;
+        }
+    
+.laghu2{
+          background-color: #64ed6990;
+        }
+    
+.laghu3{
+          background-color: #64ed6950;
+        }
+    
+.laghu4{
+          background-color: #64ed6920;
+        }
+    
+.drutha1_1{
+          background-color: #FFCF96;
+        }
+    
+.drutha1_2{
+          background-color: #FFCF9680;
+        }
+    
+.drutha2_1{
+          background-color: #CDF5FD;
+        }
+.drutha2_2{
+          background-color: #CDF5FD70;
+        }
 
 .footer-nav{
     background-color: rgb(230, 234, 237) ;
@@ -91,48 +219,6 @@ body{
 }
 
 
-#ragacompositions{
-    width: 100%;
-    margin: 1% auto;
-    border: 2px solid black ;
-    border-collapse:collapse;
-    }
-
-    #ragacompositions th, #ragacompositions td {
-    padding-left: 2%;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-    border: 1px solid black ;
-    
-    }
-
-    #ragacompositions th {
-    background-color: #f2f2f2;
-    border: 2px solid black ;
-    text-align: center;
-    padding: 2% ;
-    
-    }
-
-    ol{
-        margin-left: -5% ;
-    }
-
-    li{
-        list-style-type: none;
-        margin: 2% ;
-    }
-
-    li a{
-        text-decoration:none;
-        color:rgb(6, 106, 78) ;
-        font-weight: bold ;
-    }
-
-    li a:hover{
-        color:crimson;
-    }
-
 @media screen and (max-width: 600px) {
 
     .header-headline h1{
@@ -155,3 +241,4 @@ body{
     
 
 }
+       

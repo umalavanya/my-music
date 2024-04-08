@@ -46,159 +46,6 @@ body{
 }
 
 
-.home-list {
-    list-style-type: none;
-}
-.home-list li {
-    margin-bottom: 4%; 
-}
-
-
-.home-list li a {
-    text-decoration: none;
-    color:darkgreen;
-    font-weight: bolder;    
-}
-
-
-.home-list li a:hover {
-    color: rgb(121, 19, 19); /* Change link color on hover */
-}
-
-
-.footer-nav{
-    background-color: rgb(230, 234, 237) ;
-    height: 3rem ;
-    display: flex ;
-    justify-content: center; 
-    align-items: center ;
-
-}
-
-.footer-home a{
-    text-decoration: none;
-    color:darkgreen;
-    font-weight: bolder; 
-}
-
-.footer-home a:hover{
-    color:fuchsia ;
-}
-
-
-
-.index-footer{
-    height: 100px ;
-    width: 100% ;
-    background: linear-gradient(rgb(121, 19, 19),black );
-    color: white ;
-    font-size: larger;
-    padding: 1% ;
-
-
-}
-
-
-#ragacompositions{
-    width: 100%;
-    margin: 1% auto;
-    border: 2px solid black ;
-    border-collapse:collapse;
-    }
-
-    #ragacompositions th, #ragacompositions td {
-    padding-left: 2%;
-    border-bottom: 1px solid #ddd;
-    text-align: left;
-    border: 1px solid black ;
-    
-    }
-
-    #ragacompositions th {
-    background-color: #f2f2f2;
-    border: 2px solid black ;
-    text-align: center;
-    padding: 2% ;
-    
-    }
-
-    ol{
-        margin-left: -5% ;
-    }
-
-    li{
-        list-style-type: none;
-        margin: 2% ;
-    }
-
-    li a{
-        text-decoration:none;
-        color:rgb(6, 106, 78) ;
-        font-weight: bold ;
-    }
-
-    li a:hover{
-        color:crimson;
-    }
-
-@media screen and (max-width: 600px) {
-
-    .header-headline h1{
-
-        font-size: larger;
-    }
-
-    .index-header{
-        height: 3rem  ;
-    }  
-
-    .index-body{
-        font-size: 80% ;
-    }
-
-    .index-body ul{
-        margin-left: 0% ;
-    }
-    
-    
-
-}
-        
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-
-}
-  
-.headline-content img{
-    height: 100% ;
-}
-  
-  
-.headline-content{  
-    height: 100px ;
-    display: flex ;
-    background-color: black;
-    color: white ; 
-}
-
-.logo{
-    justify-self: left;
-    height:100% ;
-    width: auto ;
-}
-  
-  .headline{
-    padding-left: 100px ;
-    justify-content: center;
-    align-items: center;
-    margin: 0 ;
-    
-  }
-  
-
 .composition-container{
     display: block;
     gap: 5px; /* Adjust gap size as needed */
@@ -207,14 +54,13 @@ body {
        
 }
 
-  
+
 .composition-container>.composition-intro{
 
     border: 1px solid black;
     border-radius: 10px ;
    
     }
-
 
 
 .composition-intro {
@@ -304,9 +150,6 @@ body {
         font-weight: bolder;
         padding: 6px ;
     }
-
-
-
       
 .speed1 img {
         height: 40px;
@@ -352,48 +195,64 @@ body {
 .drutha2_2{
           background-color: #CDF5FD70;
         }
- 
-.container-footer{
+
+.footer-nav{
+    background-color: rgb(230, 234, 237) ;
+    height: 3rem ;
     display: flex ;
-    justify-content: space-evenly;
-    font-weight: bolder;
-    font-size: 1.8rem ;
-    padding: 10px 20px;
+    justify-content: center; 
+    align-items: center ;
+
+}
+
+.footer-home a{
+    text-decoration: none;
+    color:darkgreen;
+    font-weight: bolder; 
+}
+
+.footer-home a:hover{
+    color:fuchsia ;
+}
+
+
+
+.index-footer{
     height: 100px ;
+    width: 100% ;
+    background: linear-gradient(rgb(121, 19, 19),black );
+    color: white ;
+    font-size: larger;
+    padding: 1% ;
+
+
 }
 
 
-.container-footer .back>a,
-.container-footer .home>a
-{
-    height: 10px ;
-    cursor: pointer;
-    text-decoration: none; 
-    color: green ;
+@media screen and (max-width: 600px) {
+
+    .header-headline h1{
+
+        font-size: larger;
+    }
+
+    .index-header{
+        height: 3rem  ;
+    }  
+
+    .index-body{
+        font-size: 80% ;
+    }
+
+    .index-body ul{
+        margin-left: 0% ;
+    }
+    
+    
+
 }
-
-
-.container-footer .back>a:hover{
-
-    color:chocolate ;
-}
-
-
-.container-footer .home>a:hover{
-
-    color: blue ;
-}
-
-.footer{
-            height: 4rem ;
-            background: linear-gradient( rgb(130, 3, 3),rgb(0, 0, 0));
-            color: #E8D8C4 ;
-            
-}
-
-
         
-  
+
         
     </style>
 
@@ -412,9 +271,7 @@ body {
             <div class="composition-container">
         
                 <div class="composition-intro">
-                    <div class="composition-headline">
-                      <h4>Keraya Neeranu</h4>
-                    </div>
+                    <div class="composition-headline"><h4>Keraya Neeranu</h4></div>
                     <div class="composition-head-table">
                         <table>
         
@@ -469,11 +326,9 @@ body {
                    
                 </div>
         
-        
-        
             </div>
                 
-                <div class="composition-learning">
+            <div class="composition-learning">
                     
                 <h4>Speed - 1</h4>
         
@@ -1019,14 +874,12 @@ body {
                     </table>
                 </div>
         
-                
-        
         
             </div>
         </div>
         
         <div class="footer-nav">
-            <div class="footer-home"><a href="../index.html">Home</a></div>
+            <div class="footer-home"><a href="../../pages/compositions.html">Back</a></div>
         </div>
 
         <div class="index-footer"><p>&copy; Umalavanya</p></div>
