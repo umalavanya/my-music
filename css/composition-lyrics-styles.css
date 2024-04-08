@@ -75,13 +75,13 @@ body{
       
 .composition-head-table th, 
 .composition-head-table td {
-        padding: 2%;
+        padding: 3%;
         text-align: left;
         border-bottom: 2px solid #ddd; /* Optional: Add border-bottom for each row */
       }
       
 .composition-head-table th {
-        width: 12% ; /* Optional: Set width for table headers */
+        width: 20% ; /* Optional: Set width for table headers */
       }
       
 
