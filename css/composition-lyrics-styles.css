@@ -61,34 +61,30 @@ body{
       
 .composition-headline {
         margin: 20px ; /* Optional: Add margin below the headline */
+        
 }
       
 .composition-head-table {
-        max-width: 800% ; /* Optional: Set max-width for the table container */
-    }
+        width: 80% ; 
+
+}
       
 .composition-head-table table {
         width: 100%;
         border-collapse: collapse;
         margin-bottom: 10% ;
+        
       }
       
 .composition-head-table th, 
 .composition-head-table td {
-        padding: 3%;
         text-align: left;
         border-bottom: 2px solid #ddd; /* Optional: Add border-bottom for each row */
       }
-      
-.composition-head-table th {
-        width: 20% ; /* Optional: Set width for table headers */
-      }
-      
 
 .compostion-headline{
     justify-content : center;
     align-items: center;
-
 }
 
 .colon{
@@ -100,7 +96,7 @@ body{
 .composition-container>.composition-telugu{
 
     border: 1px solid black;
-    padding: 25px;
+    padding: 5% 20% 5% 20% ;
     border-radius: 10px ;
     margin-top: 20px ;
     
@@ -108,11 +104,11 @@ body{
 
 
 .heading-pallavi, .heading-charanam{
-    text-align: center;
+    text-align: left;
     margin: 10px ;
     font-size: larger;
     font-weight: bold;
-    
+
 }
   
 
